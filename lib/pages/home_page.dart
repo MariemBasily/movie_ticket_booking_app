@@ -2,18 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:movie_ticket_booking_app/pages/booking_page.dart';
 
 class HomePage extends StatelessWidget {
-  List<String> movies = [
-    'Shazam',
-    'Guardians Galaxy',
-    'Ant Man 3',
-    'AquaMan'
-  ];
+  List<String> movies = ['Shazam', 'Guardians Galaxy', 'Ant Man 3', 'AquaMan'];
 
-  List<String> movies2 = [
-    'Guardians Galaxy',
-    'Shazam',
-    'AquaMan',
-    'Ant Man 3'];
+  List<String> movies2 = ['Guardians Galaxy', 'Shazam', 'AquaMan', 'Ant Man 3'];
 
   @override
   Widget build(BuildContext context) {
@@ -93,9 +84,13 @@ class HomePage extends StatelessWidget {
                         children: [
                           InkWell(
                             onTap: () {
-                              Navigator.push(context,MaterialPageRoute(
-                                builder: (context)=> BookingPage(movie: movies[index],),
-                                ) );
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => BookingPage(
+                                      movie: movies[index],
+                                    ),
+                                  ));
                             },
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(15),
