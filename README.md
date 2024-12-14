@@ -1,89 +1,99 @@
-Booking Page UI Flutter Project
+# Booking Page UI Flutter Project
 
 A beautifully designed booking page built with Flutter. This project demonstrates how to create a dynamic and user-friendly booking interface with smooth animations, responsive layouts, and reusable widgets.
 
-Features
+## Features
 
-Dynamic UI: Selectable time slots with visual feedback.
+- **Dynamic UI**: Selectable time slots with visual feedback.
+- **Customizable**: Easily adaptable to various use cases like movie bookings, event reservations, or appointment scheduling.
+- **Responsive Design**: Optimized for various screen sizes.
+- **Reusable Widgets**: Modular components for enhanced maintainability.
 
-Customizable: Easily adaptable to various use cases like movie bookings, event reservations, or appointment scheduling.
+## Screenshots
 
-Responsive Design: Optimized for various screen sizes.
+![Booking Page Screenshot](path/to/screenshot.png)
 
-Reusable Widgets: Modular components for enhanced maintainability.
-
-Screenshots
-
-
-
-Installation
+## Installation
 
 To run this project locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/MariemBasily/booking_page_ui.git
+   ```bash
+   git clone https://github.com/MariemBasily/booking_page_ui.git
+   ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd booking_page_ui
+   ```bash
+   cd booking_page_ui
+   ```
 
-Install dependencies:
+3. Install dependencies:
 
-flutter pub get
+   ```bash
+   flutter pub get
+   ```
 
-Run the app:
+4. Run the app:
 
-flutter run
+   ```bash
+   flutter run
+   ```
 
-Folder Structure
+## Folder Structure
 
+```plaintext
 lib/
 ├── main.dart             # Entry point of the application
 ├── screens/
 │   └── booking_page.dart # Booking page UI
 └── widgets/
     └── reusable_widgets.dart # Custom reusable widgets
+```
 
-How to Use
+## How to Use
 
-Launch the app to view the booking page UI.
+1. Launch the app to view the booking page UI.
+2. Customize time slot behavior, colors, and layout in `booking_page.dart` as needed.
 
-Customize time slot behavior, colors, and layout in booking_page.dart as needed.
+## Technologies Used
 
-Technologies Used
+- Flutter
+- Dart
+- Material Design
 
-Flutter
-
-Dart
-
-Material Design
-
-Contributing
+## Contributing
 
 Contributions are welcome! Follow these steps to contribute:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
 
-Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
 
-git checkout -b feature-name
+3. Commit your changes:
 
-Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
 
-git commit -m "Add new feature"
+4. Push to your branch:
 
-Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
 
-git push origin feature-name
+5. Create a pull request.
 
-Create a pull request.
+## License
 
-License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Developed by
 
-Developed by
-
-Mariem BasilyGitHub Profile
+**Mariem Basily**  
+[GitHub Profile](https://github.com/MariemBasily)
 
