@@ -94,12 +94,12 @@ Contributions are welcome! Follow these steps to contribute:
 
 5. Create a pull request.
 
+## Author
+Developed by Mariem Basily.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Developed by
-
-**Mariem Basily**  
 [GitHub Profile](https://github.com/MariemBasily)
 
