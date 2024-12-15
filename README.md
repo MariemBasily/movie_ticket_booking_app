@@ -11,7 +11,13 @@ A beautifully designed booking page built with Flutter. This project demonstrate
 
 ## Screenshots
 
-![Booking Page Screenshot](path/to/screenshot.png)
+![image](https://github.com/user-attachments/assets/e20bfa7e-a8c1-4022-afe3-812f22dba7ce)
+
+![image](https://github.com/user-attachments/assets/f88eb0cc-bccd-4a0e-885f-ba2ddbb24979)          
+
+![image](https://github.com/user-attachments/assets/4c7b1ae4-cf69-49ad-8f78-dd9772153931)
+
+
 
 ## Installation
 
